@@ -1,0 +1,110 @@
+#Title{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    text-align: center
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-shadow: 0.5px 2px rgb(0, 55, 255);
+    background-color: aliceblue;    
+}
+
+.btn-outline-danger{
+    margin-left: 50px;
+}
+
+#Carr{
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 80%;
+    margin-top: 20px;
+}
+
+#contenedor-productos2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto{
+    width: 250px;
+    margin: 20px;
+    box-shadow: 5px  5px  rgb(66, 60, 60);
+}
+
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 100%;
+    position: relative;
+    border-color: blue;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+.card-image{
+    position:relative;
+    width: 100%;
+    height: 25vh;
+
+}
+
+.card-image :hover{
+    transform: scale(1.5,1.5);
+}
+
+.card-title{
+    color: blue;
+}
+
+
+#btnCar{
+    display: flex;
+    justify-content: center;
+    background-color:blue;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+#Btn{
+    width: 20px;
+}
+
+.Cantidad{
+    display: flex;
+    justify-content:center;
+}
+
+#Qty{
+    width: 50px;
+    text-align: center;
+}
+
+.Description{
+    margin-top: 50px;
+}
+
+#Nombre{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#SeguirComprando{
+    margin-left: 20%;
+    background-color: rgb(216, 182, 118);
+}

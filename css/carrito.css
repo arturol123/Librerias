@@ -1,0 +1,76 @@
+#Title{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    text-align: center
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-shadow: 0.5px 2px rgb(0, 55, 255);
+    background-color: aliceblue;    
+}
+
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#Title{
+    display: flex;
+    flex-direction:row;
+}
+
+#ButtonSeguirComparndo{
+    background-color: blue;
+    margin-left: 50px;
+    height: 30px;
+    color: azure;
+    font-size: 15px;
+    border-radius: 5px;
+
+
+}
+
+#tabla{
+    margin-left: 50px;
+    width: 80%;
+}
+
+#TablaCarrito{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#TitleCompras{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#CostoTotal{
+    display: flex;
+    margin-left: 40%;
+    border-top: 50px;
+}
+
+#OrdenarPedido{
+    margin-left: 60%;
+    background-color: orange;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+main{
+    width: 100%;
+}
